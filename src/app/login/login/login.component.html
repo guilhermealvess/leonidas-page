@@ -1,0 +1,21 @@
+<div class="center-card__billboard"></div>
+<div class="andes-card andes-card--flat andes-card--default center-card__body andes-card--padding-default">
+    <div class="center-card__header">
+        <div class="center-card__title">
+            <img src="../../../assets/leo.jpg" >
+        </div>
+    </div>
+    <div class="card__body__login">
+        <h1>Login</h1>
+        <div class="text-field">
+            <label for="username">Username</label>
+            <input type="email" name="username" placeholder="Ex. joaodasilva@gmail.com" maxlength="120" (change)="changeUsername($event)">
+        </div>
+        <div class="text-field">
+            <label for="password">Senha</label>
+            <input type="password" name="password" placeholder="Senha">
+        </div>
+        <button class="btn-login" [disabled]="loading" (click)="login()">Login</button>
+        <a href="/">Register</a>
+    </div>
+</div>

@@ -1,0 +1,214 @@
+.main {
+    overflow: auto;
+    padding-bottom: 1.5rem;
+}
+
+.center-card__billboard {
+    background-color: #9c44dc;
+    display: block;
+    height: 11.375rem;
+    width: 100%;
+}
+
+.center-card__body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-height: 26rem;
+    padding-bottom: 0;
+}
+
+.center-card__body {
+    -webkit-box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
+    margin: -6.875rem auto 0;
+    max-width: 26.5rem;
+    padding: 2rem 4rem;
+}
+
+.center-card__body {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.card__body {
+    padding: 0 1.5rem;
+    text-align: left;
+}
+
+.andes-card--flat {
+    -webkit-box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+}
+
+.andes-card {
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.center-card__title {
+    color: rgba(0,0,0,.9);
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: .0125rem;
+    overflow-wrap: break-word;
+}
+
+.center-card__header {
+    margin-top: 1.5rem;
+}
+
+.form {
+    display: block;
+    margin-top: 0em;
+    background-color: #F6F8FA;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 40%;
+    display: block;
+}
+
+.andes-form-control {
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0.6666666667em;
+    position: relative;
+    text-align: left;
+}
+
+.login-form__input--email {
+    padding-top: 0.5625rem;
+}
+
+.andes-form-control--textfield:last-child {
+    margin-right: 0;
+}
+
+.andes-form-control--textfield:last-child {
+    margin-right: 0;
+}
+.login-form__input--email {
+    padding-top: 0.5625rem;
+}
+.andes-form-control {
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0.6666666667em;
+    position: relative;
+    text-align: left;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label {
+    cursor: default;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    line-height: 22px;
+}
+
+body {
+    margin: 0;
+}
+
+.card__body__login {
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.login-card__body__login > h1 {
+    color: rgb(0, 0, 0, .9);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .0125rem;
+    overflow-wrap: break-word;
+    margin: 0;
+}
+
+.text-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-field > label {
+    color: rgb(0, 0, 0, .9);
+    margin-bottom: 10px;
+
+}
+
+.text-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f7fa;
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 12pt;
+    box-shadow: var(--color-primer-shadow-inset);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field > input::placeholder {
+    color: rgb(14, 14, 14);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #9c44dc;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -18px rgb(0, 0, 0);
+}
